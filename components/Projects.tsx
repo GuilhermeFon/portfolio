@@ -73,6 +73,7 @@ const Projects: React.FC = () => {
                 <div className="flex items-center gap-4 pt-4 border-t border-zinc-200 dark:border-zinc-800">
                   <a
                     href={project.link}
+                    target="_blank"
                     className="flex items-center gap-2 text-sm font-bold text-zinc-900 dark:text-white hover:text-orange-500 transition-colors"
                   >
                     <ExternalLink size={16} /> Live Demo

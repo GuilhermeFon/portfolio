@@ -1,9 +1,9 @@
 import {Project, Translations} from "./types";
 import {Github, Linkedin, Mail, Twitter} from "lucide-react";
 
-import BurguerCaseImage from "./assets/images/burguer-case.png";
+import BurgerCaseImage from "./assets/images/burger-case.png";
 import FinanceDashCaseImage from "./assets/images/finance-dash-case.png";
-import GrowSolarCaseImage from "./assets/images/growsolar-case.png";
+import GrowSolarCaseImage from "./assets/images/growsolar-lp-case.png";
 import GrowSolarInstitucionalCaseImage from "./assets/images/growsolar-institucional-case.png";
 import GrowSolarPlataformaCaseImage from "./assets/images/growsolar-plataforma-case.png";
 import LkSneakersCaseImage from "./assets/images/lk-sneakers-case.png";
@@ -178,10 +178,10 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "4",
-    title: "Burguer Pro",
+    title: "Burger Pro",
     description: "Landing page para um curso de hambúrguer artesanal.",
     tags: ["Next.js", "TypeScript", "TailwindCSS", "Responsive Design"],
-    image: BurguerCaseImage,
+    image: BurgerCaseImage,
     link: "https://burguer-landing.vercel.app/",
     featured: false,
   },
