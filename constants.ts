@@ -30,7 +30,7 @@ export const PROJECTS: Project[] = [
     id: "7",
     title: "Mappo",
     description:
-      "Plataforma de monitoramento veicular com rastreamento em tempo real, relatórios detalhados e alertas personalizados.",
+      "Plataforma Inovadora do mercado imobiliário que conecta compradores, vendedores e corretores de forma eficiente e transparente.",
     tags: [
       "Vite.js",
       "TypeScript",
