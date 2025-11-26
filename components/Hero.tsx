@@ -5,6 +5,8 @@ import {motion} from "framer-motion";
 import {ArrowRight, ChevronDown} from "lucide-react";
 import {useLanguage} from "../contexts/LanguageContext";
 import {CONTENT} from "../constants";
+import ProfileImage from "../assets/images/profile.jpg";
+import Image from "next/image";
 
 const Hero: React.FC = () => {
   const {language} = useLanguage();
@@ -99,8 +101,8 @@ const Hero: React.FC = () => {
 
               <div className="absolute inset-0 bg-gradient-to-tr from-orange-500 to-red-600 rounded-[2rem] lg:rounded-[3rem] p-1.5 md:p-2 shadow-2xl shadow-orange-500/30">
                 <div className="w-full h-full bg-zinc-100 dark:bg-zinc-800 rounded-[1.7rem] lg:rounded-[2.7rem] overflow-hidden relative border-4 border-white dark:border-zinc-900">
-                  <img
-                    src="https://picsum.photos/800/800?random=10"
+                  <Image
+                    src={ProfileImage}
                     alt="Guilherme de Lima Fonseca"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                   />

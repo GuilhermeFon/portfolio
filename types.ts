@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image";
+
 export type Language = 'en' | 'pt';
 
 export interface Project {
@@ -5,7 +7,7 @@ export interface Project {
   title: string;
   description: string;
   tags: string[];
-  image: string;
+  image: StaticImageData;
   link: string;
   featured: boolean;
 }
