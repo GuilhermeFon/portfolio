@@ -32,13 +32,9 @@ export const PROJECTS: Project[] = [
     description:
       "Plataforma de monitoramento veicular com rastreamento em tempo real, relatórios detalhados e alertas personalizados.",
     tags: [
-      "React",
+      "Vite.js",
       "TypeScript",
       "Chakra UI",
-      "Node.js",
-      "Express",
-      "PostgreSQL",
-      "REST APIs",
       "Mapbox",
     ],
     image: MappoCaseImage,
