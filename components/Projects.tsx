@@ -66,7 +66,7 @@ const Projects: React.FC = () => {
                   {project.title}
                 </h3>
 
-                <p className="text-zinc-600 dark:text-zinc-400 mb-6 line-clamp-2 group-hover:line-clamp-none transition-all duration-300">
+                <p className="text-zinc-600 dark:text-zinc-400 mb-6 line-clamp-3 group-hover:line-clamp-none transition-all duration-300">
                   {project.description}
                 </p>
 
