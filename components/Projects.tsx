@@ -77,12 +77,12 @@ const Projects: React.FC = () => {
                   >
                     <ExternalLink size={16} /> Live Demo
                   </a>
-                  <a
+                  {/* <a
                     href="#"
                     className="flex items-center gap-2 text-sm font-medium text-zinc-600 dark:text-zinc-500 hover:text-zinc-900 dark:hover:text-white transition-colors"
                   >
                     <Github size={16} /> Code
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </motion.div>
