@@ -20,7 +20,7 @@ export const SOCIAL_LINKS = [
     url: "https://linkedin.com/in/guilhermefon",
     icon: Linkedin,
   },
-  {name: "Email", url: "mailto:contact@guilhermefonseca.dev", icon: Mail},
+  {name: "Email", url: "mailto:guilhermelimafonseca@gmail.com", icon: Mail},
 ];
 
 export const WHATSAPP_NUMBER = "5553981368181";
