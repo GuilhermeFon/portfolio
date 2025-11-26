@@ -126,7 +126,7 @@ export const PROJECTS: Project[] = [
       "REST APIs",
     ],
     image: FinanceDashCaseImage,
-    link: "https://front-finance-dash.netlify.app/",
+    link: "https://finance-dash-web.vercel.app/",
     featured: true,
   },
   {
