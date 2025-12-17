@@ -4,7 +4,7 @@ Portfolio profissional desenvolvido com **Next.js 15** e otimizado para geraçã
 
 ## 🚀 Tecnologias
 
-- **Next.js 15** - Framework React com SSG (Static Site Generation)
+- **Next.js 16** - Framework React com SSG (Static Site Generation)
 - **React 19** - Biblioteca JavaScript para interfaces
 - **TypeScript** - Superset JavaScript com tipagem estática
 - **Tailwind CSS** - Framework CSS utility-first
