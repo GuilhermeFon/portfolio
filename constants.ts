@@ -29,8 +29,10 @@ export const PROJECTS: Project[] = [
   {
     id: "7",
     title: "Mappo",
-    description:
-      "Plataforma Inovadora do mercado imobiliário que conecta compradores, vendedores e corretores de forma eficiente e transparente.",
+    description: {
+      en: "Innovative real estate platform that connects buyers, sellers, and brokers efficiently and transparently.",
+      pt: "Plataforma Inovadora do mercado imobiliário que conecta compradores, vendedores e corretores de forma eficiente e transparente.",
+    },
     tags: [
       "Vite.js",
       "TypeScript",
@@ -46,8 +48,10 @@ export const PROJECTS: Project[] = [
   {
     id: "12",
     title: "DynaPredict",
-    description:
-      "Ecossistema para realizar o monitoramento preditivo de máquinas combinado com ferramentas de inteligência de dados.",
+    description: {
+      en: "Ecosystem for predictive machine monitoring combined with data intelligence tools.",
+      pt: "Ecossistema para realizar o monitoramento preditivo de máquinas combinado com ferramentas de inteligência de dados.",
+    },
     tags: [
       "React",
       "TypeScript",
@@ -66,8 +70,10 @@ export const PROJECTS: Project[] = [
   {
     id: "10",
     title: "GrowSolar Institucional",
-    description:
-      "Site institucional de alta conversão, com blog e páginas de cursos focados para o ecossistema de energia solar.",
+    description: {
+      en: "High-conversion institutional website with blog and course pages focused on the solar energy ecosystem.",
+      pt: "Site institucional de alta conversão, com blog e páginas de cursos focados para o ecossistema de energia solar.",
+    },
     tags: [
       "Next.js",
       "TypeScript",
@@ -82,8 +88,10 @@ export const PROJECTS: Project[] = [
   {
     id: "11",
     title: "GrowSolar Plataforma",
-    description:
-      "Plataforma de cursos, mentorias e projetos 3D focados para o ecossistema de energia solar",
+    description: {
+      en: "Platform for courses, mentoring, and 3D projects focused on the solar energy ecosystem.",
+      pt: "Plataforma de cursos, mentorias e projetos 3D focados para o ecossistema de energia solar",
+    },
     tags: [
       "Vite.js",
       "TypeScript",
@@ -101,8 +109,10 @@ export const PROJECTS: Project[] = [
   {
     id: "5",
     title: "Grow Solar Lead Gen",
-    description:
-      "Landing page de alta conversão para geração de leads em energia solar.",
+    description: {
+      en: "High-conversion landing page for solar energy lead generation.",
+      pt: "Landing page de alta conversão para geração de leads em energia solar.",
+    },
     tags: ["Next.js", "TypeScript", "TailwindCSS", "Responsive Design"],
     image: GrowSolarCaseImage,
     link: "https://planoestrategico.growsolar.com.br/",
@@ -111,8 +121,10 @@ export const PROJECTS: Project[] = [
   {
     id: "2",
     title: "Finance Dash",
-    description:
-      "Sistema de controle financeiro e de investimentos para gerenciar suas finanças com eficiência.",
+    description: {
+      en: "Financial control and investment system to manage your finances efficiently.",
+      pt: "Sistema de controle financeiro e de investimentos para gerenciar suas finanças com eficiência.",
+    },
     tags: [
       "Vite.js",
       "ShadcnUI",
@@ -132,8 +144,10 @@ export const PROJECTS: Project[] = [
   {
     id: "1",
     title: "LK Sneakers",
-    description:
-      "Landing page de alta conversão para uma loja de tênis com design moderno e atrativo.",
+    description: {
+      en: "High-conversion landing page for a sneaker store with modern and attractive design.",
+      pt: "Landing page de alta conversão para uma loja de tênis com design moderno e atrativo.",
+    },
     tags: ["Next.js", "TypeScript", "TailwindCSS", "Responsive Design"],
     image: LkSneakersCaseImage,
     link: "https://page.lksneakers.com/",
@@ -142,8 +156,10 @@ export const PROJECTS: Project[] = [
   {
     id: "9",
     title: "Studio Silo",
-    description:
-      "Meu portfólio Empresarial, onde apresento meus projetos, habilidades e experiências como desenvolvedor full stack, além de terceirização de serviços.",
+    description: {
+      en: "My business portfolio, where I showcase my projects, skills, and experiences as a full stack developer, plus service outsourcing.",
+      pt: "Meu portfólio Empresarial, onde apresento meus projetos, habilidades e experiências como desenvolvedor full stack, além de terceirização de serviços.",
+    },
     tags: ["Next.js", "TypeScript", "TailwindCSS", "Responsive Design"],
     image: SiloCaseImage,
     link: "https://studio-silo.com/",
@@ -152,8 +168,10 @@ export const PROJECTS: Project[] = [
   {
     id: "3",
     title: "Mão na Roda",
-    description:
-      "Site de serviços que conecta clientes a profissionais qualificados.",
+    description: {
+      en: "Service website that connects clients with qualified professionals.",
+      pt: "Site de serviços que conecta clientes a profissionais qualificados.",
+    },
     tags: [
       "React",
       "TypeScript",
@@ -169,8 +187,10 @@ export const PROJECTS: Project[] = [
   {
     id: "6",
     title: "A Camponesa",
-    description:
-      "Landing page para uma confeitaria artesanal com foco em qualidade e tradição.",
+    description: {
+      en: "Landing page for an artisan bakery with a focus on quality and tradition.",
+      pt: "Landing page para uma confeitaria artesanal com foco em qualidade e tradição.",
+    },
     tags: ["Next.js", "TypeScript", "TailwindCSS", "Responsive Design"],
     image: CamponesaCaseImage,
     link: "https://a-camponesa.vercel.app/",
@@ -179,7 +199,10 @@ export const PROJECTS: Project[] = [
   {
     id: "4",
     title: "Burger Pro",
-    description: "Landing page para um curso de hambúrguer artesanal.",
+    description: {
+      en: "Landing page for an artisan burger course.",
+      pt: "Landing page para um curso de hambúrguer artesanal.",
+    },
     tags: ["Next.js", "TypeScript", "TailwindCSS", "Responsive Design"],
     image: BurgerCaseImage,
     link: "https://burguer-landing.vercel.app/",

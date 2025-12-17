@@ -1,11 +1,14 @@
-import { StaticImageData } from "next/image";
+import {StaticImageData} from "next/image";
 
-export type Language = 'en' | 'pt';
+export type Language = "en" | "pt";
 
 export interface Project {
   id: string;
   title: string;
-  description: string;
+  description: {
+    en: string;
+    pt: string;
+  };
   tags: string[];
   image: StaticImageData;
   link: string;

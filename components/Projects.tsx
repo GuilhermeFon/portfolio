@@ -67,7 +67,7 @@ const Projects: React.FC = () => {
                 </h3>
 
                 <p className="text-zinc-600 dark:text-zinc-400 mb-6 line-clamp-3 group-hover:line-clamp-none transition-all duration-300">
-                  {project.description}
+                  {project.description[language]}
                 </p>
 
                 <div className="flex items-center gap-4 pt-4 border-t border-zinc-200 dark:border-zinc-800">
