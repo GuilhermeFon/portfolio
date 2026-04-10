@@ -1,4 +1,4 @@
-# Portfolio - Guilherme de Lima Fonseca
+# Portfolio - Guilherme Fonseca
 
 Portfolio profissional desenvolvido com **Next.js 15** e otimizado para geração estática de alta performance.
 
@@ -73,4 +73,4 @@ O projeto está configurado para deploy estático. Recomendado:
 
 ## 📝 Licença
 
-© 2025 Guilherme de Lima Fonseca. Todos os direitos reservados.
+© 2025 Guilherme Fonseca. Todos os direitos reservados.

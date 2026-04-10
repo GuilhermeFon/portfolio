@@ -229,7 +229,7 @@ export const CONTENT: Translations = {
     about: {
       title: "About Me",
       subtitle: "Engineering products that perform, scale, and convert.",
-      p1: "I am Guilherme de Lima Fonseca, a Full Stack Developer with 5 years of experience delivering web platforms end-to-end for startups, industry, and associations. My core stack includes React/Next.js, Node.js, and Django.",
+      p1: "I am Guilherme Fonseca, a Full Stack Developer with 5 years of experience delivering web platforms end-to-end for startups, industry, and associations. My core stack includes React/Next.js, Node.js, and Django.",
       p2: "I work from discovery to production: architecture decisions, API design, code review, SEO/performance optimization, and stakeholder alignment. The goal is always the same: deliver software that drives measurable business value.",
       skills_title: "Tech Stack",
     },
@@ -239,7 +239,7 @@ export const CONTENT: Translations = {
       view_project: "View Project",
     },
     footer: {
-      rights: "© 2025 Guilherme de Lima Fonseca. All rights reserved.",
+      rights: "© 2025 Guilherme Fonseca. All rights reserved.",
       contact_header: "Let's work together",
     },
   },
@@ -261,7 +261,7 @@ export const CONTENT: Translations = {
     about: {
       title: "Sobre Mim",
       subtitle: "Engenharia de produtos que performam, escalam e convertem.",
-      p1: "Sou Guilherme de Lima Fonseca, Desenvolvedor Full Stack com 5 anos de experiencia criando plataformas web de ponta a ponta para startups, industria e associacoes. Minha stack principal envolve React/Next.js, Node.js e Django.",
+      p1: "Sou Guilherme Fonseca, Desenvolvedor Full Stack com 5 anos de experiencia criando plataformas web de ponta a ponta para startups, industria e associacoes. Minha stack principal envolve React/Next.js, Node.js e Django.",
       p2: "Atuo da descoberta ate a producao: decisoes de arquitetura, desenho de APIs, code review, otimizacao de SEO/performance e alinhamento com stakeholders. O foco e sempre entregar software com valor mensuravel para o negocio.",
       skills_title: "Stack Tecnologica",
     },
@@ -271,7 +271,7 @@ export const CONTENT: Translations = {
       view_project: "Ver Projeto",
     },
     footer: {
-      rights: "© 2025 Guilherme de Lima Fonseca. Todos os direitos reservados.",
+      rights: "© 2025 Guilherme Fonseca. Todos os direitos reservados.",
       contact_header: "Vamos trabalhar juntos",
     },
   },

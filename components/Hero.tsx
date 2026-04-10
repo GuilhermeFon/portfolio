@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
               transition={{duration: 0.5}}
             >
               <span className="inline-block py-1.5 px-4 rounded-full bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 text-orange-600 dark:text-orange-400 font-semibold mb-6 shadow-sm">
-                {t.greeting} Guilherme de Lima Fonseca
+                {t.greeting} Guilherme Fonseca
               </span>
             </motion.div>
 
@@ -133,7 +133,7 @@ const Hero: React.FC = () => {
                 <div className="w-full h-full bg-zinc-100 dark:bg-zinc-800 rounded-[1.7rem] lg:rounded-[2.7rem] overflow-hidden relative border-4 border-white dark:border-zinc-900">
                   <Image
                     src={ProfileImage}
-                    alt="Guilherme de Lima Fonseca"
+                    alt="Guilherme Fonseca"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                   />
                 </div>
