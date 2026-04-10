@@ -18,6 +18,7 @@ export interface Project {
 export interface TranslationStructure {
   nav: {
     about: string;
+    experience: string;
     projects: string;
     contact: string;
   };

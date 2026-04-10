@@ -11,6 +11,20 @@ import Image from "next/image";
 const Hero: React.FC = () => {
   const {language} = useLanguage();
   const t = CONTENT[language].hero;
+  const highlights =
+    language === "pt"
+      ? [
+          "5 anos de experiencia full stack",
+          "Lideranca tecnica em projetos ponta a ponta",
+          "React/Next.js, Node.js e Django",
+          "Performance, SEO e valor de negocio",
+        ]
+      : [
+          "5 years of full stack experience",
+          "Technical leadership in end-to-end projects",
+          "React/Next.js, Node.js, and Django",
+          "Performance, SEO, and business value",
+        ];
 
   const scrollToProjects = () => {
     document.getElementById("projects")?.scrollIntoView({behavior: "smooth"});
@@ -64,6 +78,22 @@ const Hero: React.FC = () => {
             >
               {t.description}
             </motion.p>
+
+            <motion.div
+              initial={{opacity: 0, y: 15}}
+              animate={{opacity: 1, y: 0}}
+              transition={{duration: 0.5, delay: 0.25}}
+              className="flex flex-wrap gap-2 mb-10 justify-center lg:justify-start"
+            >
+              {highlights.map((item) => (
+                <span
+                  key={item}
+                  className="px-3 py-1.5 text-sm font-medium rounded-full border border-zinc-300 dark:border-zinc-700 bg-white/80 dark:bg-zinc-900/70 text-zinc-700 dark:text-zinc-300"
+                >
+                  {item}
+                </span>
+              ))}
+            </motion.div>
 
             <motion.div
               initial={{opacity: 0, y: 20}}

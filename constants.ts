@@ -1,5 +1,5 @@
 import {Project, Translations} from "./types";
-import {Github, Linkedin, Mail, Twitter} from "lucide-react";
+import {Github, Linkedin, Mail} from "lucide-react";
 
 import BurgerCaseImage from "./assets/images/burger-case.png";
 import FinanceDashCaseImage from "./assets/images/finance-dash-case.png";
@@ -30,8 +30,8 @@ export const PROJECTS: Project[] = [
     id: "7",
     title: "Mappo",
     description: {
-      en: "Innovative real estate platform that connects buyers, sellers, and brokers efficiently and transparently.",
-      pt: "Plataforma Inovadora do mercado imobiliário que conecta compradores, vendedores e corretores de forma eficiente e transparente.",
+      en: "Full stack real estate platform with interactive lot/property mapping, advanced filters, and secure APIs to support high-volume geospatial data.",
+      pt: "Plataforma imobiliaria full stack com mapeamento interativo de lotes e imoveis, filtros avancados e APIs seguras para suportar alto volume de dados geoespaciais.",
     },
     tags: [
       "Vite.js",
@@ -49,8 +49,8 @@ export const PROJECTS: Project[] = [
     id: "12",
     title: "DynaPredict",
     description: {
-      en: "Ecosystem for predictive machine monitoring combined with data intelligence tools.",
-      pt: "Ecossistema para realizar o monitoramento preditivo de máquinas combinado com ferramentas de inteligência de dados.",
+      en: "Industrial predictive maintenance ecosystem with BI dashboards, data intelligence, and 3D asset visualization for real-time decisions.",
+      pt: "Ecossistema de manutencao preditiva industrial com dashboards de BI, inteligencia de dados e visualizacao 3D de ativos para decisao em tempo real.",
     },
     tags: [
       "React",
@@ -71,8 +71,8 @@ export const PROJECTS: Project[] = [
     id: "10",
     title: "GrowSolar Institucional",
     description: {
-      en: "High-conversion institutional website with blog and course pages focused on the solar energy ecosystem.",
-      pt: "Site institucional de alta conversão, com blog e páginas de cursos focados para o ecossistema de energia solar.",
+      en: "SEO-driven institutional website with integrated blog and course funnels, designed to increase authority, organic traffic, and conversion.",
+      pt: "Site institucional orientado a SEO com blog integrado e funis de cursos, projetado para elevar autoridade, trafego organico e conversao.",
     },
     tags: [
       "Next.js",
@@ -89,8 +89,8 @@ export const PROJECTS: Project[] = [
     id: "11",
     title: "GrowSolar Plataforma",
     description: {
-      en: "Platform for courses, mentoring, and 3D projects focused on the solar energy ecosystem.",
-      pt: "Plataforma de cursos, mentorias e projetos 3D focados para o ecossistema de energia solar",
+      en: "Education platform for courses, mentorships, and technical projects, delivered with end-to-end architecture and scalable APIs.",
+      pt: "Plataforma educacional de cursos, mentorias e projetos tecnicos, entregue com arquitetura ponta a ponta e APIs escalaveis.",
     },
     tags: [
       "Vite.js",
@@ -111,7 +111,7 @@ export const PROJECTS: Project[] = [
     title: "Grow Solar Lead Gen",
     description: {
       en: "High-conversion landing page for solar energy lead generation.",
-      pt: "Landing page de alta conversão para geração de leads em energia solar.",
+      pt: "Landing page de alta conversao para geracao de leads em energia solar.",
     },
     tags: ["Next.js", "TypeScript", "TailwindCSS", "Responsive Design"],
     image: GrowSolarCaseImage,
@@ -122,8 +122,8 @@ export const PROJECTS: Project[] = [
     id: "2",
     title: "Finance Dash",
     description: {
-      en: "Financial control and investment system to manage your finances efficiently.",
-      pt: "Sistema de controle financeiro e de investimentos para gerenciar suas finanças com eficiência.",
+      en: "Financial control dashboard with expense, income, credit card, and investment modules, built as a graduation capstone and evolved as a personal product.",
+      pt: "Dashboard de controle financeiro com modulos de despesas, receitas, cartao de credito e investimentos, criado como TCC e evoluido como produto pessoal.",
     },
     tags: [
       "Vite.js",
@@ -134,7 +134,7 @@ export const PROJECTS: Project[] = [
       "Zustand",
       "Node.js",
       "Express",
-      "PostgresSQL",
+      "PostgreSQL",
       "REST APIs",
     ],
     image: FinanceDashCaseImage,
@@ -145,8 +145,8 @@ export const PROJECTS: Project[] = [
     id: "1",
     title: "LK Sneakers",
     description: {
-      en: "High-conversion landing page for a sneaker store with modern and attractive design.",
-      pt: "Landing page de alta conversão para uma loja de tênis com design moderno e atrativo.",
+      en: "High-conversion landing page for a sneaker brand with modern visuals and mobile-first UX.",
+      pt: "Landing page de alta conversao para uma marca de tenis com visual moderno e UX mobile-first.",
     },
     tags: ["Next.js", "TypeScript", "TailwindCSS", "Responsive Design"],
     image: LkSneakersCaseImage,
@@ -157,8 +157,8 @@ export const PROJECTS: Project[] = [
     id: "9",
     title: "Studio Silo",
     description: {
-      en: "My business portfolio, where I showcase my projects, skills, and experiences as a full stack developer, plus service outsourcing.",
-      pt: "Meu portfólio Empresarial, onde apresento meus projetos, habilidades e experiências como desenvolvedor full stack, além de terceirização de serviços.",
+      en: "Business portfolio presenting projects, services, and technical expertise to support client acquisition.",
+      pt: "Portfolio empresarial para apresentar projetos, servicos e expertise tecnica com foco em aquisicao de clientes.",
     },
     tags: ["Next.js", "TypeScript", "TailwindCSS", "Responsive Design"],
     image: SiloCaseImage,
@@ -167,10 +167,10 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "3",
-    title: "Mão na Roda",
+    title: "Mao na Roda",
     description: {
-      en: "Service website that connects clients with qualified professionals.",
-      pt: "Site de serviços que conecta clientes a profissionais qualificados.",
+      en: "Service platform connecting clients with qualified professionals through a streamlined web experience.",
+      pt: "Plataforma de servicos que conecta clientes e profissionais qualificados em uma experiencia web simplificada.",
     },
     tags: [
       "React",
@@ -188,8 +188,8 @@ export const PROJECTS: Project[] = [
     id: "6",
     title: "A Camponesa",
     description: {
-      en: "Landing page for an artisan bakery with a focus on quality and tradition.",
-      pt: "Landing page para uma confeitaria artesanal com foco em qualidade e tradição.",
+      en: "Landing page for an artisanal bakery emphasizing product quality and brand storytelling.",
+      pt: "Landing page para confeitaria artesanal com foco em qualidade dos produtos e storytelling de marca.",
     },
     tags: ["Next.js", "TypeScript", "TailwindCSS", "Responsive Design"],
     image: CamponesaCaseImage,
@@ -200,8 +200,8 @@ export const PROJECTS: Project[] = [
     id: "4",
     title: "Burger Pro",
     description: {
-      en: "Landing page for an artisan burger course.",
-      pt: "Landing page para um curso de hambúrguer artesanal.",
+      en: "Landing page for an artisan burger course focused on lead generation and conversion.",
+      pt: "Landing page para curso de hamburguer artesanal com foco em geracao de leads e conversao.",
     },
     tags: ["Next.js", "TypeScript", "TailwindCSS", "Responsive Design"],
     image: BurgerCaseImage,
@@ -214,6 +214,7 @@ export const CONTENT: Translations = {
   en: {
     nav: {
       about: "About",
+      experience: "Experience",
       projects: "Projects",
       contact: "Contact",
     },
@@ -221,15 +222,15 @@ export const CONTENT: Translations = {
       greeting: "Hello, I'm",
       role: "Full Stack Developer",
       description:
-        "I build accessible, pixel-perfect, and performant web experiences that merge creativity with robust engineering.",
+        "I help companies turn ideas into scalable digital products with real business impact, combining product vision, technical leadership, and high-performance engineering.",
       cta_primary: "View My Work",
       cta_secondary: "Contact Me",
     },
     about: {
       title: "About Me",
-      subtitle: "Building the future, one line of code at a time.",
-      p1: "I am Guilherme de Lima Fonseca, a passionate Full Stack Developer with deep expertise in the modern JavaScript ecosystem. My journey involves solving complex problems and delivering high-impact digital solutions.",
-      p2: "With a focus on performance, SEO, and user experience, I transform ideas into scalable software. Whether it’s a disruptive startup MVP or an enterprise dashboard, I ensure excellence in every commit.",
+      subtitle: "Engineering products that perform, scale, and convert.",
+      p1: "I am Guilherme de Lima Fonseca, a Full Stack Developer with 5 years of experience delivering web platforms end-to-end for startups, industry, and associations. My core stack includes React/Next.js, Node.js, and Django.",
+      p2: "I work from discovery to production: architecture decisions, API design, code review, SEO/performance optimization, and stakeholder alignment. The goal is always the same: deliver software that drives measurable business value.",
       skills_title: "Tech Stack",
     },
     projects: {
@@ -245,27 +246,28 @@ export const CONTENT: Translations = {
   pt: {
     nav: {
       about: "Sobre",
+      experience: "Experiencia",
       projects: "Projetos",
       contact: "Contato",
     },
     hero: {
-      greeting: "Olá, eu sou",
+      greeting: "Ola, eu sou",
       role: "Desenvolvedor Full Stack",
       description:
-        "Crio experiências web acessíveis, pixel-perfect e de alta performance que unem criatividade e engenharia robusta.",
+        "Ajudo empresas a transformar ideias em produtos digitais escalaveis com impacto real no negocio, unindo visao de produto, lideranca tecnica e engenharia de alta performance.",
       cta_primary: "Ver Projetos",
       cta_secondary: "Contato",
     },
     about: {
       title: "Sobre Mim",
-      subtitle: "Construindo o futuro, uma linha de código por vez.",
-      p1: "Eu sou Guilherme de Lima Fonseca, um Desenvolvedor Full Stack apaixonado com profunda experiência no ecossistema JavaScript moderno. Minha jornada envolve resolver problemas complexos e entregar soluções digitais de alto impacto.",
-      p2: "Com foco em performance, SEO e experiência do usuário, transformo ideias em software escalável. Seja um MVP disruptivo para startups ou um dashboard corporativo, garanto excelência em cada commit.",
-      skills_title: "Stack Tecnológica",
+      subtitle: "Engenharia de produtos que performam, escalam e convertem.",
+      p1: "Sou Guilherme de Lima Fonseca, Desenvolvedor Full Stack com 5 anos de experiencia criando plataformas web de ponta a ponta para startups, industria e associacoes. Minha stack principal envolve React/Next.js, Node.js e Django.",
+      p2: "Atuo da descoberta ate a producao: decisoes de arquitetura, desenho de APIs, code review, otimizacao de SEO/performance e alinhamento com stakeholders. O foco e sempre entregar software com valor mensuravel para o negocio.",
+      skills_title: "Stack Tecnologica",
     },
     projects: {
       title: "Projetos em Destaque",
-      subtitle: "Uma seleção dos meus trabalhos recentes e estudos de caso.",
+      subtitle: "Uma selecao dos meus trabalhos recentes e estudos de caso.",
       view_project: "Ver Projeto",
     },
     footer: {
@@ -292,7 +294,6 @@ export const SKILLS = [
   "HTML5",
   "CSS3",
   "TailwindCSS",
-  "Docker",
   "GraphQL",
   "AWS",
   "CI/CD",

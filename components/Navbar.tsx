@@ -54,6 +54,12 @@ const Navbar: React.FC = () => {
             {t.about}
           </button>
           <button
+            onClick={() => scrollToSection("experience")}
+            className="text-sm font-medium text-zinc-600 hover:text-orange-600 dark:text-zinc-300 dark:hover:text-orange-500 transition-colors"
+          >
+            {t.experience}
+          </button>
+          <button
             onClick={() => scrollToSection("projects")}
             className="text-sm font-medium text-zinc-600 hover:text-orange-600 dark:text-zinc-300 dark:hover:text-orange-500 transition-colors"
           >
@@ -123,6 +129,12 @@ const Navbar: React.FC = () => {
                 className="text-lg font-medium text-zinc-600 dark:text-zinc-300 hover:text-orange-600 dark:hover:text-orange-500 text-left"
               >
                 {t.about}
+              </button>
+              <button
+                onClick={() => scrollToSection("experience")}
+                className="text-lg font-medium text-zinc-600 dark:text-zinc-300 hover:text-orange-600 dark:hover:text-orange-500 text-left"
+              >
+                {t.experience}
               </button>
               <button
                 onClick={() => scrollToSection("projects")}

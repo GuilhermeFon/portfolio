@@ -9,6 +9,33 @@ import { Code, Server, Database, Layout } from 'lucide-react';
 const About: React.FC = () => {
   const { language } = useLanguage();
   const t = CONTENT[language].about;
+  const featureTitles =
+    language === "pt"
+      ? {
+          frontend: "Arquitetura Frontend",
+          backend: "Sistemas Backend",
+          database: "Modelagem de Dados",
+          code: "Codigo Limpo",
+        }
+      : {
+          frontend: "Frontend Architecture",
+          backend: "Backend Systems",
+          database: "Database Design",
+          code: "Clean Code",
+        };
+
+  const differentiators =
+    language === "pt"
+      ? [
+          "Experiencia com plataformas SaaS, educacionais, imobiliarias e industriais.",
+          "Atuacao com stakeholders em discovery, priorizacao e entrega continua.",
+          "Forte dominio em SEO tecnico, Core Web Vitals e arquitetura escalavel.",
+        ]
+      : [
+          "Experience across SaaS, education, real estate, and industrial products.",
+          "Hands-on collaboration with stakeholders from discovery to continuous delivery.",
+          "Strong focus on technical SEO, Core Web Vitals, and scalable architecture.",
+        ];
 
   const FeatureItem = ({ icon: Icon, title }: { icon: any, title: string }) => (
     <div className="flex items-center gap-3 p-4 bg-white dark:bg-zinc-900/50 border border-zinc-200 dark:border-zinc-800 rounded-xl hover:border-orange-500/50 hover:shadow-md dark:hover:shadow-none transition-all">
@@ -42,11 +69,20 @@ const About: React.FC = () => {
               <p>{t.p2}</p>
             </div>
 
+            <ul className="mt-6 space-y-2 text-zinc-700 dark:text-zinc-300">
+              {differentiators.map((item) => (
+                <li key={item} className="flex gap-2">
+                  <span className="text-orange-600 dark:text-orange-500">•</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <FeatureItem icon={Layout} title="Frontend Architecture" />
-              <FeatureItem icon={Server} title="Backend Systems" />
-              <FeatureItem icon={Database} title="Database Design" />
-              <FeatureItem icon={Code} title="Clean Code" />
+              <FeatureItem icon={Layout} title={featureTitles.frontend} />
+              <FeatureItem icon={Server} title={featureTitles.backend} />
+              <FeatureItem icon={Database} title={featureTitles.database} />
+              <FeatureItem icon={Code} title={featureTitles.code} />
             </div>
           </motion.div>
 
