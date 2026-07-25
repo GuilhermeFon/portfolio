@@ -34,12 +34,12 @@ export const PROJECTS: Project[] = [
       pt: "Plataforma imobiliaria full stack com mapeamento interativo de lotes e imoveis, filtros avancados e APIs seguras para suportar alto volume de dados geoespaciais.",
     },
     tags: [
-      "Vite.js",
+      "Next.js",
       "TypeScript",
-      "Chakra UI",
       "Mapbox",
       "Responsive Design",
       "Redux Toolkit",
+      "AdonisJS",
     ],
     image: MappoCaseImage,
     link: "https://mappo.com.br/",
@@ -117,6 +117,7 @@ export const PROJECTS: Project[] = [
     image: GrowSolarCaseImage,
     link: "https://planoestrategico.growsolar.com.br/",
     featured: false,
+    hidden: true,
   },
   {
     id: "2",
@@ -152,6 +153,7 @@ export const PROJECTS: Project[] = [
     image: LkSneakersCaseImage,
     link: "https://page.lksneakers.com/",
     featured: true,
+    hidden: true,
   },
   {
     id: "9",
@@ -164,6 +166,7 @@ export const PROJECTS: Project[] = [
     image: SiloCaseImage,
     link: "https://studio-silo.com/",
     featured: true,
+    hidden: true,
   },
   {
     id: "3",
@@ -195,6 +198,7 @@ export const PROJECTS: Project[] = [
     image: CamponesaCaseImage,
     link: "https://a-camponesa.vercel.app/",
     featured: false,
+    hidden: true,
   },
   {
     id: "4",
@@ -207,6 +211,7 @@ export const PROJECTS: Project[] = [
     image: BurgerCaseImage,
     link: "https://burguer-landing.vercel.app/",
     featured: false,
+    hidden: true,
   },
 ];
 
@@ -222,7 +227,7 @@ export const CONTENT: Translations = {
       greeting: "Hello, I'm",
       role: "Full Stack Developer",
       description:
-        "I help companies turn ideas into scalable digital products with real business impact, combining product vision, technical leadership, and high-performance engineering.",
+        "I build web products end to end — from architecture to deploy — with React/Next.js, Node.js, and Python/Django, focused on performance and SEO.",
       cta_primary: "View My Work",
       cta_secondary: "Contact Me",
     },
@@ -230,7 +235,7 @@ export const CONTENT: Translations = {
       title: "About Me",
       subtitle: "Engineering products that perform, scale, and convert.",
       p1: "I am Guilherme Fonseca, a Full Stack Developer with 5 years of experience delivering web platforms end-to-end for startups, industry, and associations. My core stack includes React/Next.js, Node.js, and Django.",
-      p2: "I work from discovery to production: architecture decisions, API design, code review, SEO/performance optimization, and stakeholder alignment. The goal is always the same: deliver software that drives measurable business value.",
+      p2: "I work from discovery to production: architecture decisions, API design, code review, SEO/performance optimization, and stakeholder alignment. I focus on performance, Core Web Vitals, and technical SEO — apps that load fast, rank well, and scale.",
       skills_title: "Tech Stack",
     },
     projects: {
@@ -239,7 +244,7 @@ export const CONTENT: Translations = {
       view_project: "View Project",
     },
     footer: {
-      rights: "© 2025 Guilherme Fonseca. All rights reserved.",
+      rights: "Guilherme Fonseca. All rights reserved.",
       contact_header: "Let's work together",
     },
   },
@@ -254,7 +259,7 @@ export const CONTENT: Translations = {
       greeting: "Ola, eu sou",
       role: "Desenvolvedor Full Stack",
       description:
-        "Ajudo empresas a transformar ideias em produtos digitais escalaveis com impacto real no negocio, unindo visao de produto, lideranca tecnica e engenharia de alta performance.",
+        "Construo produtos web ponta a ponta — da arquitetura ao deploy — com React/Next.js, Node.js e Python/Django, com foco em performance e SEO.",
       cta_primary: "Ver Projetos",
       cta_secondary: "Contato",
     },
@@ -262,7 +267,7 @@ export const CONTENT: Translations = {
       title: "Sobre Mim",
       subtitle: "Engenharia de produtos que performam, escalam e convertem.",
       p1: "Sou Guilherme Fonseca, Desenvolvedor Full Stack com 5 anos de experiencia criando plataformas web de ponta a ponta para startups, industria e associacoes. Minha stack principal envolve React/Next.js, Node.js e Django.",
-      p2: "Atuo da descoberta ate a producao: decisoes de arquitetura, desenho de APIs, code review, otimizacao de SEO/performance e alinhamento com stakeholders. O foco e sempre entregar software com valor mensuravel para o negocio.",
+      p2: "Atuo da descoberta ate a producao: decisoes de arquitetura, desenho de APIs, code review, otimizacao de SEO/performance e alinhamento com stakeholders. Tenho foco em performance, Core Web Vitals e SEO técnico — aplicações que carregam rápido, ranqueiam bem e escalam.",
       skills_title: "Stack Tecnologica",
     },
     projects: {
@@ -271,7 +276,7 @@ export const CONTENT: Translations = {
       view_project: "Ver Projeto",
     },
     footer: {
-      rights: "© 2025 Guilherme Fonseca. Todos os direitos reservados.",
+      rights: "Guilherme Fonseca. Todos os direitos reservados.",
       contact_header: "Vamos trabalhar juntos",
     },
   },
@@ -285,11 +290,16 @@ export const SKILLS = [
   "Node.js",
   "AdonisJS",
   "Express",
+  "Python",
+  "Django",
+  "Wagtail",
   "PostgreSQL",
   "MongoDB",
   "MySQL",
   "Git",
   "Docker",
+  "Redis",
+  "Celery",
   "REST APIs",
   "HTML5",
   "CSS3",

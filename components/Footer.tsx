@@ -8,6 +8,7 @@ import {ArrowUpRight} from "lucide-react";
 const Footer: React.FC = () => {
   const {language} = useLanguage();
   const t = CONTENT[language].footer;
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer
@@ -46,7 +47,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-zinc-200 dark:border-zinc-900 text-sm text-zinc-500 dark:text-zinc-600">
-          <p>{t.rights}</p>
+          <p>© {currentYear} {t.rights}</p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <span>Pelotas - RS, Brazil</span>
           </div>

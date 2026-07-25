@@ -13,6 +13,7 @@ export interface Project {
   image: StaticImageData;
   link: string;
   featured: boolean;
+  hidden?: boolean;
 }
 
 export interface TranslationStructure {
