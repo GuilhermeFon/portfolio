@@ -4,6 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../contexts/LanguageContext';
 import { CONTENT, SKILLS } from '../constants';
+import ScrollReveal from './ScrollReveal';
 import { Code, Server, Database, Layout } from 'lucide-react';
 
 const About: React.FC = () => {
@@ -65,8 +66,8 @@ const About: React.FC = () => {
               {t.subtitle}
             </h3>
             <div className="space-y-4 text-zinc-600 dark:text-zinc-400 text-lg leading-relaxed">
-              <p>{t.p1}</p>
-              <p>{t.p2}</p>
+              <ScrollReveal text={t.p1} />
+              <ScrollReveal text={t.p2} delay={0.1} />
             </div>
 
             <ul className="mt-6 space-y-2 text-zinc-700 dark:text-zinc-300">

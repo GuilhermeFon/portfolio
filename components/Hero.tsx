@@ -5,6 +5,7 @@ import {motion} from "framer-motion";
 import {ArrowRight, ChevronDown} from "lucide-react";
 import {useLanguage} from "../contexts/LanguageContext";
 import {CONTENT} from "../constants";
+import Magnetic from "./Magnetic";
 import ProfileImage from "../assets/images/profile.jpg";
 import Image from "next/image";
 
@@ -101,22 +102,26 @@ const Hero: React.FC = () => {
               transition={{duration: 0.5, delay: 0.3}}
               className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto"
             >
-              <button
-                onClick={scrollToProjects}
-                className="group relative px-8 py-4 bg-zinc-900 dark:bg-white text-white dark:text-zinc-950 font-bold rounded-full overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-lg shadow-zinc-900/20 dark:shadow-none"
-              >
-                <span className="relative z-10 flex items-center justify-center gap-2">
-                  {t.cta_primary}{" "}
-                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </span>
-              </button>
+              <Magnetic>
+                <button
+                  onClick={scrollToProjects}
+                  className="group relative px-8 py-4 bg-zinc-900 dark:bg-white text-white dark:text-zinc-950 font-bold rounded-full overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-lg shadow-zinc-900/20 dark:shadow-none"
+                >
+                  <span className="relative z-10 flex items-center justify-center gap-2">
+                    {t.cta_primary}{" "}
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </span>
+                </button>
+              </Magnetic>
 
-              <button
-                onClick={scrollToContact}
-                className="group px-8 py-4 bg-transparent border border-zinc-300 dark:border-zinc-700 text-zinc-900 dark:text-white font-medium rounded-full transition-all hover:bg-zinc-100 dark:hover:bg-zinc-900 hover:border-zinc-400 dark:hover:border-zinc-500 hover:scale-105 active:scale-95"
-              >
-                {t.cta_secondary}
-              </button>
+              <Magnetic>
+                <button
+                  onClick={scrollToContact}
+                  className="group px-8 py-4 bg-transparent border border-zinc-300 dark:border-zinc-700 text-zinc-900 dark:text-white font-medium rounded-full transition-all hover:bg-zinc-100 dark:hover:bg-zinc-900 hover:border-zinc-400 dark:hover:border-zinc-500 hover:scale-105 active:scale-95"
+                >
+                  {t.cta_secondary}
+                </button>
+              </Magnetic>
             </motion.div>
           </div>
 
